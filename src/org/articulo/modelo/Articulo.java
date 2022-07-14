@@ -55,7 +55,7 @@ public class Articulo {
 			ps.setInt(8, id);
 			ps.executeQuery();
 
-			System.out.println("Se Actualizó correctamente el registro=" + id + " " + codigo_barras + " " + nombre);
+			System.out.println("Se ha Actualizado correctamente el registro=" + id + " " + codigo_barras + " " + nombre);
 
 		} catch (Exception e) {
 			System.out.println("Exception: " + e.getMessage());
